@@ -1,4 +1,4 @@
-fetch('data.json')
+fetch('./data.json')
   .then(response => response.json())
   .then(data => {
     // Access the students array from the JSON data
