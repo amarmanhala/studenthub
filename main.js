@@ -1,3 +1,3 @@
-import { data } from "./data.json";
+import data from './data.json';
 
-console.log(data.age);
+console.log(data);
